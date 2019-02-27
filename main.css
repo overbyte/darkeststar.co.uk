@@ -1,0 +1,66 @@
+body {
+    background: url('dsbackground.jpg') no-repeat fixed center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Courier New", Courier, monospace;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.background {
+    width: 100%
+}
+
+div, footer {
+    position: absolute;
+}
+
+a, a:visited, a:active {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.logo {
+    width: 100%;
+}
+
+.intro {
+    text-align: center;
+    width: 33vw;
+    right: 3vw;
+    top: 3vw;
+}
+
+footer {
+    left: 3vw;
+    bottom: 3vw;
+}
+
+@media (max-width: 768px) {
+    body {
+
+        font-size: 1rem;
+    }
+
+    div, footer {
+        position: relative;
+    }
+
+    .logo {
+        max-width: 15rem;
+    }
+
+    .intro {
+        width: 90vw;
+        margin: 23vh 5vw;
+    }
+
+}
